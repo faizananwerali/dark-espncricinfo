@@ -1,0 +1,282 @@
+/* ==UserStyle==
+@name         Dark-ESPNcricinfo
+@description  Complete dark mode implementation for [ESPNcricinfo Web](https://www.espncricinfo.com/) with many improvements for better reading.
+@namespace    github.com/faizananwerali/dark-espncricinfo
+@homepageURL  https://github.com/faizananwerali/dark-espncricinfo
+@supportURL   https://github.com/faizananwerali/dark-espncricinfo/issues
+@updateURL    https://raw.githubusercontent.com/faizananwerali/dark-espncricinfo/master/es.user.css
+@author       Faizan Anwer Ali Rupani <contact@faizanrupani.com> (https://github.com/faizananwerali)
+@version      1.0
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain('www.espncricinfo.com') {
+	body, #main-container {
+	  background-color: #2c2c2c;
+	}
+
+	div.story-container {
+	  background-color: #424242;
+	}
+
+	b, h1, h2 {
+	  color: #EEEEEE ;
+	}
+
+	.match-story-content .story-container .article-social.vertical+p, .match-story-content .story-container .contentItem__subhead, .match-story-content .story-container .contentItem__subhead--shortstop, .match-story-content .story-container .report-image+p, .page-story-content .story-container .article-social.vertical+p, .page-story-content .story-container .contentItem__subhead, .page-story-content .story-container .contentItem__subhead--shortstop, .page-story-content .story-container .report-image+p {
+	  color: #EEEEEE ;
+	}
+
+	.match-story-content .story-container .article-body p, .page-story-content .story-container .article-body p {
+	  color: #EEEEEE;
+	  letter-spacing: 0.03rem;
+	  line-height: 1.8em;
+	}
+
+	.match-story-content .story-container blockquote.pull-quote, .page-story-content .story-container blockquote.pull-quote {
+	  color: #FAFAFA ;
+	}
+
+	.match-story-content .story-container .article-body .article-figure .credit, .match-story-content .story-container .article-body .article-figure .photoCaption, .match-story-content .story-container .article-body figure .credit, .match-story-content .story-container .article-body figure .photoCaption, .page-story-content .story-container .article-body .article-figure .credit, .page-story-content .story-container .article-body .article-figure .photoCaption, .page-story-content .story-container .article-body figure .credit, .page-story-content .story-container .article-body figure .photoCaption {
+	  color: #E0E0E0;
+	}
+
+	.match-story-content .story-container .article-meta .authors li, .match-story-content .story-container .author, .page-story-content .story-container .article-meta .authors li, .page-story-content .story-container .author {
+	  color: #FAFAFA;
+	}
+
+	.match-story-content .story-container .article-social.vertical+p>i, .match-story-content .story-container .contentItem__subhead--shortstop>i, .match-story-content .story-container .contentItem__subhead>i, .match-story-content .story-container .report-image+p>i, .page-story-content .story-container .article-social.vertical+p>i, .page-story-content .story-container .contentItem__subhead--shortstop>i, .page-story-content .story-container .contentItem__subhead>i, .page-story-content .story-container .report-image+p>i {
+	  color: #E0E0E0;
+	}
+
+	div.pb-open-question-progress {
+	  color: #ffffff;
+	}
+
+	.label, .live-scorecard table thead, .match-live .live-sidebar-heading, .match-live .live-widget-heading, .match-story-content .story-container table .table-heading, .match-story-content .story-container table thead tr th, .match-story-content .story-container table tr:first-child td, .match-story-content .story-container table tr th, .page-story-content .story-container table .table-heading, .page-story-content .story-container table thead tr th, .page-story-content .story-container table tr:first-child td, .page-story-content .story-container table tr th, .partnerships-header, .player-stats .stat .value, label {
+	  color: white;
+	}
+
+	.home-page-wrapper>.container, .match-page-wrapper>.container, .page-match-finder>.container, .series-page-wrapper>.container, .series-results-page-wrapper>.container, .series-standings-page-wrapper>.container, .table-page>.container, .team-page-wrapper>.container, .team-scores-page-wrapper>.container, .teams-page-wrapper>.container, .video-page-wrapper>.container {
+	  background-color: #2c2c2c;
+	}
+
+	.card, .comment-container, .hint-content, .match-finder-tabs, .table-page .head, .team-scores-page .team-scores-tabs {
+	  background-color: #424242;
+	}
+
+	.widget-tabs {
+	  background-color: #424242;
+	}
+
+	.widget-tab-link, .widget-tab {
+	  color: #F5F5F5;
+	}
+
+	.bg-light {
+	  background-color: #424242;
+	}
+
+	.innings-stat table .thead-light th, .match-story-content .story-container table .thead-light th, .page-story-content .story-container table .thead-light th, .table .thead-light th {
+	  color: #F5F5F5;
+	}
+
+	.chart-table-container table caption .title, .featured-scoreboard .scorecard .competitor .competitor-details .score, .featured-scoreboard .scorecard .match-type, .feed-item, .font-weight-bold, .form-inline .btn:hover, .form-inline .match-story-content .story-container button:hover, .form-inline .page-story-content .story-container button:hover, .innings-stat table thead td, .live-scorecard table .player-name, .match-live .head-to-head-table thead td, .match-live .link-container a, .match-live .players-to-watch .player .player-stats .stat .title, .match-story-content .story-container .form-inline button:hover, .match-winner-score, .nav-tabs .nav-link, .no-matches-div .redirect-link, .page-story-content .story-container .form-inline button:hover, .player-stats .runs, .player-stats .stat .title, .player-stats .stat .value, .primary-navbar .nav-item .dropdown-menu .nav-item:hover .nav-link, .primary-navbar .nav-link.active, .scorecard-summary .innings-row .player .stats, .scorecard-summary .innings-title, .section-header .header-link, .sidebar-head>.head-title, .slice-text, strong {
+	  color: white;
+	}
+
+	.innings-stat table, .match-story-content .story-container table, .page-story-content .story-container table, .table {
+	  color: #F5F5F5;
+	}
+
+	.batsman-control-chart .chart-value, .competitor .extra-score, .competitor .name, .competitor .score, .h1, .h2, .h3, .h4, .h5, .h6, .league-scores-container .match-score-block .name, .league-scores-container .match-score-block .score, .live-scorecard table tbody, .match-finder-tabs .widget-tab-link .widget-tab, .match-highlight .name, .match-stats-batsmen .current-player-details .batsman-control-chart .chart-value, .match-stats-batsmen .current-player-details .player-info .name, .match-stats-batsmen .current-player-details .shot-details .shot-name, .match-stats-bowlers .current-player-details .player-info .name, .match-story-content .story-container .article-body h2, .match-story-content .story-container .inline-table .table-caption, .match-story-content .story-container .inline h1, .mobile-dropdown .dropdown-header .header-title, .page-story-content .story-container .article-body h2, .page-story-content .story-container .inline-table .table-caption, .page-story-content .story-container .inline h1, .player-details .player-info .name, .scorecard-summary .innings-row .player .name, .shot-details .shot-name, h1, h2, h3, h4, h5, h6 {
+	  color: #FAFAFA;
+	}
+
+	.match-notes ul li {
+	  color: #E0E0E0;
+	}
+
+	.sidebar-widget-coverage-item .content .title, .sidebar-widget-videos-item.no-image .description, .sidebar-widget-videos-item.no-image .title {
+	  color: #FAFAFA;
+	}
+
+	.sidebar-widget-coverage-item .content .title:hover, .sidebar-widget-videos-item.no-image:hover .description, .sidebar-widget-videos-item.no-image:hover .title {
+	  color: #64B5F6;
+	}
+
+	.sidebar-widget-coverage-item .content .description {
+	  color: #E0E0E0;
+	}
+
+	.match-header .best-player-title {
+	  color: #EEEEEE;
+	}
+
+	.innings-stat table thead, .innings-stat table.sidebar-widget-table thead th, .match-story-content .story-container table.sidebar-widget-table thead th, .page-story-content .story-container table.sidebar-widget-table thead th, .sidebar-widget-table.table thead th {
+	  background-color: #616161;
+	}
+
+	.innings-stat table.sidebar-widget-table td, .match-story-content .story-container table.sidebar-widget-table td, .page-story-content .story-container table.sidebar-widget-table td, .sidebar-widget-table.table td {
+	  color: white;
+	}
+
+	.innings-stat .footer .control {
+	  color: white;
+	}
+
+	.featured-scoreboard .scorecard .competitor .competitor-details .name {
+	  color: white;
+	}
+
+	.gray-700 {
+	  color: #EEEEEE;
+	}
+
+	.match-header .event-header .status-label {
+	  color: #FAFAFA;
+	}
+
+	.match-header .event-header .desc {
+	  color: #E0E0E0;
+	}
+
+	.match-header .event .summary {
+	  color: #FAFAFA;
+	}
+
+	.match-header .event .teams .team .score-extra-score, .match-header .best-player-team-name {
+	  color: #E0E0E0;
+	}
+
+	.match-featured-article .publishing-details {
+	  color: #BDBDBD;
+	}
+
+	.match-featured-article .description {
+	  color: #EEEEEE;
+	}
+
+	.match-live .live-sidebar-heading, .match-live .live-widget-heading {
+	  background-color: #616161;
+	}
+
+	.match-comment-long-text {
+	  color: #E0E0E0;
+	  letter-spacing: 0.03rem;
+	  line-height: 1.8em;
+	}
+
+	.scorecard-summary .innings-row .player .name, .match-live .link-container a {
+	  color: #03a9f4;
+	}
+
+	.current-player-wrapper, .match-section-header .data {
+	  color: #EEEEEE;
+	}
+
+	.match-comment-over, .player-stats .runs .balls {
+	  color: #EEEEEE;
+	}
+
+	.match-comment-short-text {
+	  color: #FAFAFA;
+	}
+
+	.chart-table-container table caption .indicators {
+	  color: #FAFAFA;
+	}
+
+	.chart-table-container table td {
+	  border: 1px solid rgb(255, 255, 255);
+	  border-color: white;
+	}
+
+	.match-live .match-details tr td {
+	  color: #EEEEEE;
+	}
+
+	.chart-table-container table caption .title {
+	  background-color: grey;
+	}
+
+	.match-video-title {
+	  color: #EEEEEE;
+	}
+
+	.match-coverage-story-content .title {
+	  color: #EEEEEE;
+	}
+
+	.match-coverage-story-content .description {
+	  color: #BDBDBD;
+	}
+
+	.story-sidebar .stories-menu .story-menu-item .news-feed-item-title a, .story-sidebar .stories-menu .story-menu-item .story-title {
+	  color: #FAFAFA;
+	}
+
+	.story-sidebar .stories-menu .story-menu-item .news-feed-item-title a:visited, .story-sidebar .stories-menu .story-menu-item .story-title:visited {
+	  color: #BDBDBD;
+	}
+
+	.story-sidebar .stories-menu .story-menu-item.active a:visited {
+	  color: white;
+	}
+
+	.story-sidebar .stories-menu .story-menu-item .news-feed_item-meta {
+	  color: #E0E0E0;
+	}
+
+	.link-with-image {
+	  color: white;
+	}
+
+	.link-with-image img {
+	  background-color: white;
+	}
+
+	.sidebar-widget .widget-item:hover a {
+	  color: #424242;
+	}
+
+	.inline-track ul li {
+	  color: white;
+	}
+
+	.match-story-content .story-container .timestamp, .page-story-content .story-container .timestamp {
+	  color: #BDBDBD;
+	}
+
+	.competitor.gray .extra-score, .competitor.gray .name, .competitor.gray .score {
+	  color: #FAFAFA;
+	}
+
+	.block-story .story-description {
+	  color: #E0E0E0;
+	}
+
+	.category-select li.active {
+	  color: red;
+	}
+
+	.modal-content {
+	  background-color: #424242;
+	}
+
+	.modal-header .modal-description {
+	  color: #FAFAFA;
+	}
+
+	.match-highlight .match-description {
+	  color: #E0E0E0;
+	}
+
+	.league-leader .innings-and-average {
+	  color: #E0E0E0;
+	}
+
+	.player-short-description {
+	  color: #E0E0E0;
+	}
+}

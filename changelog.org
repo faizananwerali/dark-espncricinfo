@@ -1,0 +1,5 @@
+#+STARTUP: nofold
+
+* Changelog
+** 2.16.1 [2020-07-03 Tue]
+Added new dark theme
