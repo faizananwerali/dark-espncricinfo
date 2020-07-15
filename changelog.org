@@ -2,7 +2,10 @@
 
 * Changelog
 ** 1.0.1 [2020-07-15 Wed]
-Fixed story sidebar text color issue
+Hotfix for the ~1.0.1~ update.
+
+*** Fixed
+- Story Sidebar visited link now has proper colors in dark mode
 
 * Changelog
 ** 1.0.0 [2020-07-14 Tue]

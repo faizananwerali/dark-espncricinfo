@@ -10,4 +10,8 @@ Complete dark mode implementation for [ESPNcricinfo Web](https://www.espncricinf
 
 You have to install [Stylus](https://add0n.com/stylus.html) and then click on the install link below.
 
-[![Install directly with](https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat)](https://raw.githubusercontent.com/faizananwerali/dark-espncricinfo/master/es.user.styl) 
+[![Install directly with](https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat)](https://raw.githubusercontent.com/faizananwerali/dark-espncricinfo/master/es.user.styl)
+
+## License
+
+Code released under the [MIT](https://github.com/vednoc/dark-whatsapp/blob/master/license) license.
