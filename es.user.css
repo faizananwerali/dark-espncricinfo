@@ -6,7 +6,7 @@
 @supportURL   https://github.com/faizananwerali/dark-espncricinfo/issues
 @updateURL    https://raw.githubusercontent.com/faizananwerali/dark-espncricinfo/master/es.user.css
 @author       Faizan Anwer Ali Rupani <contact@faizanrupani.com> (https://github.com/faizananwerali)
-@version      1.0.0
+@version      1.0.1
 @license      MIT
 ==/UserStyle== */
 
@@ -217,7 +217,7 @@
 	}
 
 	.story-sidebar .stories-menu .story-menu-item .news-feed-item-title a:visited, .story-sidebar .stories-menu .story-menu-item .story-title:visited {
-	  color: #BDBDBD !important;
+	  color: #9d9d9d !important;
 	}
 
 	.story-sidebar .stories-menu .story-menu-item.active a:visited {

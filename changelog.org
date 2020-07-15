@@ -1,5 +1,9 @@
 #+STARTUP: nofold
 
 * Changelog
-** 2.16.1 [2020-07-03 Tue]
+** 1.0.1 [2020-07-15 Wed]
+Fixed story sidebar text color issue
+
+* Changelog
+** 1.0.0 [2020-07-14 Tue]
 Added new dark theme
