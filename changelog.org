@@ -1,6 +1,13 @@
 #+STARTUP: nofold
 
 * Changelog
+** 1.0.12 [2020-07-16 Thu]
+Hotfix for the ~1.0.12~ update.
+
+*** Fixed
+- Match squad player name now has proper colors in dark mode.
+
+* Changelog
 ** 1.0.11 [2020-07-16 Thu]
 Hotfix for the ~1.0.11~ update.
 
