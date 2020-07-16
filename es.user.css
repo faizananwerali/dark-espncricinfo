@@ -6,7 +6,7 @@
 @supportURL   https://github.com/faizananwerali/dark-espncricinfo/issues
 @updateURL    https://raw.githubusercontent.com/faizananwerali/dark-espncricinfo/master/es.user.css
 @author       Faizan Anwer Ali Rupani <contact@faizanrupani.com> (https://github.com/faizananwerali)
-@version      1.0.12
+@version      1.0.13
 @license      MIT
 ==/UserStyle== */
 
@@ -114,7 +114,7 @@
 	}
 
 	.innings-stat table thead, .innings-stat table.sidebar-widget-table thead th, .match-story-content .story-container table.sidebar-widget-table thead th, .page-story-content .story-container table.sidebar-widget-table thead th, .sidebar-widget-table.table thead th {
-	  background-color: #616161;
+	  background-color: #616161 !important;
 	}
 
 	.innings-stat table.sidebar-widget-table td, .match-story-content .story-container table.sidebar-widget-table td, .page-story-content .story-container table.sidebar-widget-table td, .sidebar-widget-table.table td {
@@ -279,12 +279,48 @@
 	.player-short-description {
 	  color: #E0E0E0 !important;
 	}
-	
+
 	.match-story-content .story-container .article-body>ol li, .match-story-content .story-container .article-body>ul li, .page-story-content .story-container .article-body>ol li, .page-story-content .story-container .article-body>ul li {
 	  color: white !important;
 	}
-	
+
 	.match-live .match-squad .players-list .player-designation, .match-live .match-squad .players-list .player-name {
-	  color: #FAFAFA;
+	  color: #FAFAFA !important;
+	}
+
+	.live-scorecard table thead {
+	  background-color: rgba(42, 42, 42, 0.6705882352941176) !important;
+	}
+
+	.innings-stat table thead th, .match-story-content .story-container table thead th, .page-story-content .story-container table thead th, .table thead th {
+	  border-bottom: 2px solid #212121 !important;
+	}
+
+	.extra-small span {
+	  color: white !important;
+	}
+
+	.match-header .stats-value {
+	  color: white !important;
+	}
+
+	.match-header .stats-secondary {
+	  color: #EEEEEE !important;
+	}
+
+	.live-scorecard table .player-style {
+	  color: #BDBDBD !important;
+	}
+
+	.current-partnerships span.font-weight-bold span, .reviews span.font-weight-bold span {
+	  color: white !important;
+	}
+
+	.current-partnerships span:not(.font-weight-bold), .reviews span:not(.font-weight-bold) {
+	  color: #E0E0E0 !important;
+	}
+
+	.live-scorecard .current-partnerships, .live-scorecard .reviews {
+	  background-color: #616161 !important;
 	}
 }
