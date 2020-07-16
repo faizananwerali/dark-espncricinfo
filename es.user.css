@@ -6,7 +6,7 @@
 @supportURL   https://github.com/faizananwerali/dark-espncricinfo/issues
 @updateURL    https://raw.githubusercontent.com/faizananwerali/dark-espncricinfo/master/es.user.css
 @author       Faizan Anwer Ali Rupani <contact@faizanrupani.com> (https://github.com/faizananwerali)
-@version      1.0.1
+@version      1.0.11
 @license      MIT
 ==/UserStyle== */
 
@@ -278,5 +278,9 @@
 
 	.player-short-description {
 	  color: #E0E0E0 !important;
+	}
+	
+	.match-story-content .story-container .article-body>ol li, .match-story-content .story-container .article-body>ul li, .page-story-content .story-container .article-body>ol li, .page-story-content .story-container .article-body>ul li {
+	  color: white !important;
 	}
 }

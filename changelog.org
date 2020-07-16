@@ -1,12 +1,21 @@
 #+STARTUP: nofold
 
 * Changelog
+** 1.0.11 [2020-07-16 Thu]
+Hotfix for the ~1.0.11~ update.
+
+*** Fixed
+- Bullet list of article now has proper colors in dark mode.
+
+* Changelog
 ** 1.0.1 [2020-07-15 Wed]
 Hotfix for the ~1.0.1~ update.
 
 *** Fixed
-- Story Sidebar visited link now has proper colors in dark mode
+- Story Sidebar visited link now has proper colors in dark mode.
 
 * Changelog
 ** 1.0.0 [2020-07-14 Tue]
-Added new dark theme
+
+*** Added
+- New dark theme
