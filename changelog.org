@@ -1,6 +1,13 @@
 #+STARTUP: nofold
 
 * Changelog
+** 1.0.14 [2020-07-21 Thu]
+Hotfix for the ~1.0.14~ update.
+
+*** Fixed
+- Fix colors on statistics page.
+
+* Changelog
 ** 1.0.13 [2020-07-16 Thu]
 Hotfix for the ~1.0.13~ update.
 
